@@ -9,6 +9,7 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
+    app:cardElevation="4dp"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
@@ -36,13 +37,13 @@
             android:paddingBottom="4dp"
             android:ellipsize="end"
             android:maxLines="4"
-            android:textColor="@color/ltgray"/>
+            android:textColor="@color/gray"/>
 
         <TextView
             android:id="@+id/article_subtitle"
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
-            android:textColor="@color/ltgray"
+            android:textColor="@color/gray"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
